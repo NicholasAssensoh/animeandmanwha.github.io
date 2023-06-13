@@ -1,0 +1,61 @@
+nav li a{
+  text-decoration: none;
+  cursor: grab;
+  font-weight: bold;
+  color: darkorange;
+}
+nav{
+  background-color: #333;
+  position: sticky;
+  width: 100%;
+  top: 0;
+}
+header{
+  font-size: 200%;
+  text-align: center;
+}
+nav ul li{
+  float: inline-end;
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+body{background-image: url(https://logos-world.net/wp-content/uploads/2021/08/Haikyuu-Logo.png);
+     background-repeat:repeat-x;
+     background-size: 50%;
+     font-family: cursive;
+     background-color: antiquewhite;
+}
+h1{
+  color: whitesmoke
+}
+h3{
+  color: whitesmoke;
+}
+p{
+  color: whitesmoke;
+  border: 5px solid darkorange; 
+      background: black; 
+      border-radius: 25px;
+  font-size: 20px;
+}
+
+#haikyuu h1{
+  color: black;
+}
+#haikyuu h3{
+  color: black;
+}
+div{
+  text-align: center;
+}
+footer {
+  background-color: #333;
+  color: #333;
+  padding: 10px;
+  left: 0;
+  bottom: 0;
+  width: 99%;
+}

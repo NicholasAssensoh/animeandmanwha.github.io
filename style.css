@@ -1,0 +1,78 @@
+body {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/3/3d/The_God_of_High_School_Anime_Logo.png);
+  background-repeat: repeat-x;
+  background-size: 25%;
+  background-color: lightgoldenrodyellow;
+  font-family: cursive;
+}
+
+/*header*/
+header {
+  font-size: 200%;
+}
+
+/*navbar */
+nav{
+  background-color: #333;
+  position: sticky;
+  width: 100%;
+  top: 0;
+}
+
+nav li a {
+  text-decoration: none;
+  color: white;
+  cursor: grab;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style-type: none;
+  /* remove the bullet points for ul */
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#gohbio h1 {
+  color: greenyellow;
+}
+
+#gohbio h3 {
+  color: orangered;
+}
+
+#goh h1 {
+  color: mediumslateblue
+}
+
+#goh h3 {
+  color: dodgerblue
+}
+
+p {
+  border: 5px solid blueviolet;
+  background-color: navajowhite;
+  border-radius: 25px;
+  text-align: center;
+}
+div{
+  text-align: center;
+}
+
+/*Footer*/
+footer {
+  background-color: #333;
+  color: #333;
+  padding: 10px;
+  left: 0;
+  bottom: 0;
+  width: 99%;
+}

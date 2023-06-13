@@ -1,0 +1,62 @@
+header{
+  font-size: 200%;
+  text-align: center;
+}
+nav li a{
+  text-decoration: none;
+  cursor: grab;
+  font-weight: bold;
+  color: white;
+}
+nav{
+  background-color: #333;
+  position: sticky;
+  width: 100%;
+  top: 0;
+}
+nav li{
+  float: inline-end;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+nav ul li{
+  display: inline-block;
+  margin-right: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+body{
+  background-image: url(https://www.kindpng.com/picc/m/455-4551502_tokyo-ghoul-logo-png-transparent-png.png);
+  background-repeat: repeat-x;
+  background-size: 50%;
+  background-color: black;
+  font-family: cursive;
+}
+div{
+  text-align: center;
+}
+p{
+  color: whitesmoke;
+    border: 5px solid white; 
+      border-radius: 25px;
+}
+h1{
+  color: whitesmoke;
+  border: 5px solid white; 
+      border-radius: 25px;
+}
+h3{
+  color: whitesmoke;
+  border: 5px solid white; 
+      border-radius: 25px;
+}
+footer {
+  background-color: #333;
+  color: #333;
+  padding: 10px;
+  left: 0;
+  bottom: 0;
+  width: 99%;
+}

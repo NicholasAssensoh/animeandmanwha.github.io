@@ -1,0 +1,69 @@
+header{
+  font-size: 200%;
+  text-align: center;
+}
+nav li a {
+  text-decoration: none;
+  color: whitesmoke;
+  cursor: grab;
+  font-weight: bold;
+}
+nav{
+  background-color: #333;
+  position: sticky;
+  width: 100%;
+  top: 0;
+}
+nav li{
+  float: inline-end;
+  list-style-type: none;
+  /* remove the bullet points for ul */
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+body{
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Chainsaw_Man_logo.png/1200px-Chainsaw_Man_logo.png);
+  background-repeat: repeat-x;
+  background-size: 50%;
+  font-family: cursive;
+  background-color: crimson;
+}
+#csmbio h1, #csmbio h3{
+  color: black;
+  border: 5px solid yellow; 
+      background:white ; 
+      border-radius: 25px;
+}
+#csm h1, #csm h3{
+  color: black;
+  border: 5px solid yellow; 
+      background:white ; 
+      border-radius: 25px;
+}
+p{
+  color: black;
+  border: 5px solid yellow; 
+      background:white ; 
+      border-radius: 25px;
+}
+div{
+  text-align: center;
+}
+footer {
+  background-color: #333;
+  color: #333;
+  padding: 10px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 99%;
+}
